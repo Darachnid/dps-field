@@ -1,0 +1,22 @@
+{
+  "name": "dps-field",
+  "author": "chrisbot",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "DPS Field",
+    "uuid": "83b467d2-3947-48d7-81f4-ace664e2032c",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": ["emery"],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": ["KIND", "BODY"],
+    "resources": {
+      "media": []
+    }
+  }
+}
